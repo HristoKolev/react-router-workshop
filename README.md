@@ -37,3 +37,8 @@ npm i react-router-dom
 ## Exercise 5 - Query parameters
 
 * Add `from` and `to` query parameters to the page 1 link and listen to them using the `useSearchParams` hook. 
+
+## Exercise 6 - Set query parameters
+
+* Add a `Next` button to `Page1` that increases both query parameters by 10. 
+ 

@@ -10,7 +10,7 @@ export const App = (): JSX.Element => {
       <nav>
         <ul>
           <li>
-            <Link to="/page1">Page 1</Link>
+            <Link to="/page1?from=10&to=20">Page 1</Link>
           </li>
           <li>
             <Link to="/page2/42">Page 2 - 42</Link>
