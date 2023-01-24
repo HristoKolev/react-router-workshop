@@ -21,3 +21,7 @@ npm i react-router-dom
 * Add a `Routes` component with a single `Route` child that has `/page1` as `path` and a new `<Page1 />` component as `element`.
 
 * Add a `Link` component to the navigation area and have it point to `/page1`. 
+
+## Exercise 2 - Add a redirect route
+
+* Use a `<Navigate to=... />` to redirect `/` to `/page1`.
