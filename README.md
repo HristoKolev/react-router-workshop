@@ -29,3 +29,8 @@ npm i react-router-dom
 ## Exercise 3 - Catch all route
 
 * Add a Route with `*` as `path` and display a `<NotFound />` component.
+
+## Exercise 4 - Url parameters
+
+* Add a Route that has a `petId` url parameter and display it in a `Page2` component.
+

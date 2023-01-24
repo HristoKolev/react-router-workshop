@@ -1,6 +1,7 @@
 import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom';
 
 import { Page1 } from './pages/Page1';
+import { NotFound } from './pages/NotFound';
 
 export const App = (): JSX.Element => {
   return (
@@ -16,6 +17,7 @@ export const App = (): JSX.Element => {
         <Routes>
           <Route path="/page1" element={<Page1 />} />
           <Route path="/" element={<Navigate to="/page1" />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
     </BrowserRouter>
