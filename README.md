@@ -34,3 +34,6 @@ npm i react-router-dom
 
 * Add a Route that has a `petId` url parameter and display it in a `Page2` component.
 
+## Exercise 5 - Query parameters
+
+* Add `from` and `to` query parameters to the page 1 link and listen to them using the `useSearchParams` hook. 
