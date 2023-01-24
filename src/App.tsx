@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom';
 
 import { Page1 } from './pages/Page1';
 
@@ -15,6 +15,7 @@ export const App = (): JSX.Element => {
       <main>
         <Routes>
           <Route path="/page1" element={<Page1 />} />
+          <Route path="/" element={<Navigate to="/page1" />} />
         </Routes>
       </main>
     </BrowserRouter>

@@ -25,3 +25,7 @@ npm i react-router-dom
 ## Exercise 2 - Add a redirect route
 
 * Use a `<Navigate to=... />` to redirect `/` to `/page1`.
+
+## Exercise 3 - Catch all route
+
+* Add a Route with `*` as `path` and display a `<NotFound />` component.
