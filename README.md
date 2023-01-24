@@ -42,3 +42,10 @@ npm i react-router-dom
 
 * Add a `Next` button to `Page1` that increases both query parameters by 10. 
  
+## Exercise 7 - Navigate programmatically
+
+* Add a `Go to Page 2` button to `Page1`.
+
+* Handle the `onClick` event and programmatically navigate to `/page2/42` with `from` set to 20 and `to` set to 30.
+
+
