@@ -21,3 +21,31 @@ npm i react-router-dom
 * Add a `Routes` component with a single `Route` child that has `/page1` as `path` and a new `<Page1 />` component as `element`.
 
 * Add a `Link` component to the navigation area and have it point to `/page1`. 
+
+## Exercise 2 - Add a redirect route
+
+* Use a `<Navigate to=... />` to redirect `/` to `/page1`.
+
+## Exercise 3 - Catch all route
+
+* Add a Route with `*` as `path` and display a `<NotFound />` component.
+
+## Exercise 4 - Url parameters
+
+* Add a Route that has a `petId` url parameter and display it in a `Page2` component.
+
+## Exercise 5 - Query parameters
+
+* Add `from` and `to` query parameters to the page 1 link and listen to them using the `useSearchParams` hook. 
+
+## Exercise 6 - Set query parameters
+
+* Add a `Next` button to `Page1` that increases both query parameters by 10. 
+ 
+## Exercise 7 - Navigate programmatically
+
+* Add a `Go to Page 2` button to `Page1`.
+
+* Handle the `onClick` event and programmatically navigate to `/page2/42` with `from` set to 20 and `to` set to 30.
+
+
